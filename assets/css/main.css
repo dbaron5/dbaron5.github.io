@@ -3455,6 +3455,12 @@ input[type="button"]:disabled,
   margin: 0 auto 2em;
 }
 
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
 .image2 img {
   max-width: 100%;
   height: auto;

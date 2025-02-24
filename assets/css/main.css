@@ -3455,7 +3455,14 @@ input[type="button"]:disabled,
   margin: 0 auto 2em;
 }
 
-/* This applies only to images inside links */
+/* Ensure the GamerNet image stays the same size */
+.same-size {
+  max-width: 100%;
+  height: auto;
+  width: 150%;
+}
+
+/* Keep this only for linked images */
 .image2 img {
   max-width: 100%;
   height: auto;

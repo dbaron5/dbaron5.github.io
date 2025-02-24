@@ -3455,19 +3455,19 @@ input[type="button"]:disabled,
   margin: 0 auto 2em;
 }
 
-/* Ensure the image keeps its original width but expands in height */
+/* Apply the same styling that was originally affecting the linked image */
 .image2 {
   display: block;
   max-width: 100%;
   height: auto;
-  max-height: none; /* This ensures the entire image is visible */
+  width: 150%;
 }
 
 /* Keep this only for linked images */
 .image2 img {
   max-width: 100%;
   height: auto;
-  max-height: none;
+  width: 100%;
 }
 
 /* Button styles remain unchanged */

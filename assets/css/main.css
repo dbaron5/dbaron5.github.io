@@ -3455,12 +3455,12 @@ input[type="button"]:disabled,
   margin: 0 auto 2em;
 }
 
-/* Apply the same styling that was originally affecting the linked image */
+/* Restore original button-linked image size */
 .image2 {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 150%;
+  width: 150%; /* Same width as when it was a button */
 }
 
 /* Keep this only for linked images */

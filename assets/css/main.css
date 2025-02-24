@@ -3451,13 +3451,11 @@ input[type="button"]:disabled,
 }
 
 .image-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
-  width: 100%;
+  display: block;
+  margin: 0 auto 2em;
 }
 
-.image2 {
+.image2 img {
   max-width: 100%;
   height: auto;
   width: 150%;

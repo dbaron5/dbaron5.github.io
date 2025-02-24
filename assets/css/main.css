@@ -3455,18 +3455,14 @@ input[type="button"]:disabled,
   margin: 0 auto 2em;
 }
 
-.image-container img {
-  max-width: 100%;
-  height: auto;
-  width: 100%;
-}
-
+/* This applies only to images inside links */
 .image2 img {
   max-width: 100%;
   height: auto;
   width: 150%;
 }
 
+/* Button styles remain unchanged */
 .button-spacing {
   margin-right: 30px;
 }

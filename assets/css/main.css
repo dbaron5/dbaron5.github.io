@@ -3453,24 +3453,14 @@ input[type="button"]:disabled,
 .image-container {
   display: block;
   margin: 0 auto 2em;
-  text-align: center; /* Ensures alignment is the same as before */
 }
 
-/* Matches the original button size */
-.gamernet-img {
-  display: inline-block; /* Mimics inline-block behavior from the button */
-  max-width: 200px; /* Adjust this value to match the original button size */
-  height: auto;
-}
-
-/* Keep this only for linked images */
 .image2 img {
   max-width: 100%;
   height: auto;
-  width: 100%;
+  width: 150%;
 }
 
-/* Button styles remain unchanged */
 .button-spacing {
   margin-right: 30px;
 }

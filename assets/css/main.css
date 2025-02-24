@@ -3443,22 +3443,25 @@ input[type="button"]:disabled,
   font-size: 20px;
 }
 
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
 .features article {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.image-container {
-  display: block;
-  margin: 0 auto 2em;
+  max-width: 400px;
 }
 
 .image2 img {
   max-width: 100%;
   height: auto;
-  width: 150%;
+  width: 100%;
 }
 
 .button-spacing {

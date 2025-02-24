@@ -2729,6 +2729,7 @@ input[type="button"]:disabled,
 }
 
 /* Features */
+
 .features article {
   border-top: solid 3px #f4f4f4;
   margin-bottom: 2.25em;
@@ -2740,14 +2741,14 @@ input[type="button"]:disabled,
   padding-top: 0;
 }
 
-.features article .image2 {
+.features article .image {
   display: inline-block;
   padding-right: 2.5em;
   vertical-align: middle;
   width: 48%;
 }
 
-.features article .image2 img {
+.features article .image img {
   display: block;
   width: 100%;
 }
@@ -3442,25 +3443,22 @@ input[type="button"]:disabled,
   font-size: 20px;
 }
 
-.features {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
 .features article {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 400px;
+}
+
+.image-container {
+  display: block;
+  margin: 0 auto 2em;
 }
 
 .image2 img {
   max-width: 100%;
   height: auto;
-  width: 100%;
+  width: 150%;
 }
 
 .button-spacing {

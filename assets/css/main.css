@@ -3460,14 +3460,14 @@ input[type="button"]:disabled,
   display: block;
   max-width: 100%;
   height: auto;
-  width: none;
+  width: 150%;
 }
 
 /* Keep this only for linked images */
 .image2 img {
   max-width: 100%;
   height: auto;
-  width: none;
+  width: 100%;
 }
 
 /* Button styles remain unchanged */

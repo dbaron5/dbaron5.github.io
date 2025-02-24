@@ -3455,8 +3455,9 @@ input[type="button"]:disabled,
   margin: 0 auto 2em;
 }
 
-/* Ensure the GamerNet image stays the same size */
-.same-size {
+/* Apply the same styling that was originally affecting the linked image */
+.image2 {
+  display: block;
   max-width: 100%;
   height: auto;
   width: 150%;
@@ -3466,7 +3467,7 @@ input[type="button"]:disabled,
 .image2 img {
   max-width: 100%;
   height: auto;
-  width: 150%;
+  width: 100%;
 }
 
 /* Button styles remain unchanged */
